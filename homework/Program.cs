@@ -20,3 +20,27 @@
 
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
+// Решение задачи 2
+
+Console.WriteLine("FirstNumber  ");
+int FirstNumber = Convert.ToInt32(Console.Read());
+Console.WriteLine("SecondNumber  ");
+int SecondNumber = Convert.ToInt32(Console.Read());
+
+int max = 0;
+int min = 0;
+
+if (FirstNumber > SecondNumber)
+ {
+    max = FirstNumber;
+    min = SecondNumber;
+ }
+
+ else
+
+ {
+    max = SecondNumber;
+    min = FirstNumber;
+ }
+ 
